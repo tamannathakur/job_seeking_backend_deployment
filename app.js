@@ -14,7 +14,7 @@ config({ path: "./config/config.env" });
 
 app.use(
   cors({
-    origin: 'https://job-seek-web-app-t.netlify.app/',
+    origin: 'https://job-seek-web-app-t.netlify.app',
     method: ["GET", "POST", "DELETE", "PUT"],allowedHeaders: ['Content-Type', 'Authorization'],
     credentials: true,
   })
